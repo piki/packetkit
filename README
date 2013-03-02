@@ -1,0 +1,16 @@
+PacketKit, (c) 2001 by Patrick Reynolds
+Distributed under the GNU General Public License v2 or later.
+
+To build it:
+  ./configure && make
+It only builds under Linux.  Contributions to fix this are welcome.
+The GUI requires GTK+ and libglade.
+
+To run the sniffer:
+  ./sniff
+
+To run the generator:
+  ./sender <filename> [<filename> [<filename>]]
+
+To run the GUI:
+  ./pktgui

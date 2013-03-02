@@ -1,0 +1,9 @@
+IP(
+	protocol=udp
+	destination=192.168.0.3
+	payload=UDP(
+		sport=1072
+		dport=31337
+		data=(666f6f0a)
+	)
+)

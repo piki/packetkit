@@ -1,0 +1,10 @@
+IP(
+	protocol=tcp
+	destination=192.168.0.3
+	source=192.168.0.2
+	payload=TCP(
+		sport=1137
+		dport=25
+		flags=RST
+	)
+)
